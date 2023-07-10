@@ -42,7 +42,7 @@ def print_position():
     for i in range(8):
         for j in range(8):
             if chess_board[i][j] == -1:
-                ans.append(abc[j] + str(i + 2))
+                ans.append(abc[j] + str(i + 1))
     print(','.join(ans))
 
 def successful_solve(i):
